@@ -6,6 +6,16 @@ the attacker controls. One proof-of-concept (PoC) was created to modify the
 settings for DNS-server to launch a man-in-the-middle (MITM) attack against all
 users on the network.
 
+# Timeline (dd.mm.yy)
+
+- 15.01.17 - Issues reported (CSRF, XSS and default username and password)
+- 18.01.17 - Issues confirmed by Get
+- 15.03.17 - Patch released on my router (for testing)
+- 22.03.17 - Clickjacking issue reported
+- 08.05.17 - Patch issued for all routers
+
+The default username and password will not be patched, so some [exploits are
+still available](#browser-cache-poisoning).
 
 # Vulnerability description
 ## Default Username and Password
